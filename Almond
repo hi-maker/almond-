@@ -1,0 +1,16 @@
+const = Discord Require("Discord.Js")
+const Client = New Discord.Client();
+
+var prefix = '~'
+var Token = 'NjMxMzA5NzM0NzIwNTY5NDA0.XZ1FFQ.dYUFC97A3XKTJzGNlMJ9jSJWkZE'
+
+client.on("ready, function"ready {
+	console.log("ready")
+})
+
+client.on("message", message => {
+if(message.content.startswith(prefix + "Help"))
+message.channel.send("Hello. I am Almond Bot. I heard you need help. what do you need? Say Commands, to list all commands. Say Credits to see a list of the developers who made me!")
+})
+
+client.login(NjMxMzA5NzM0NzIwNTY5NDA0.XZ1FFQ.dYUFC97A3XKTJzGNlMJ9jSJWkZE);
